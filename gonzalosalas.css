@@ -1,9 +1,10 @@
 .gradient-background {
-    background: linear-gradient(300deg, #DBE2EF, #DCD6F7, #3F72AF);
+    background: linear-gradient(300deg, #DCD6F7, #424874, #A6B1E1);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
+    color:#F4EEFF;
   }
-  
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -15,6 +16,9 @@
       background-position: 0% 50%;
     }
   }
+  body {
+    background-color: #F4EEFF;
+  }
  .link{
     text-decoration: none;
  }
@@ -24,12 +28,6 @@
  align-items: center;
  align-content: center;
  justify-content: center;
- }
- #web-development{
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding-top: 30px;
  }
 
  #tv-films{
@@ -56,3 +54,31 @@
     list-style-type: none;
     margin-bottom: 3px;
   }
+  #features {
+    background-color: #F4EEFF;
+  }
+  #contact {
+    background-color: #F4EEFF;
+  }
+ html {
+  background-color: #F4EEFF;
+ }
+ footer{
+  background-color: #F4EEFF;
+ }
+ div div p a {
+  text-decoration: none;
+  color: #F4EEFF;
+ }
+
+ .container-projects {
+  background-color: #F4EEFF;
+ }
+
+ .work-experience {
+  background-color: #F4EEFF;
+ }
+
+ #moreabout{
+  background-color: #F4EEFF;
+ }
